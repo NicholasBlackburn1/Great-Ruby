@@ -9,9 +9,5 @@ Obfuscate.setup do |config|
   text= gets
   obfuscated = Obfuscate.obfuscate( text )
   clarified = Obfuscate.clarify( obfuscated ) 
-  print obfuscated
-  puts("you wana see the hidded message\n")
-  num = gets 
-  if (num == 1)
-    put(clarified)
-  end
+  print(obfuscated+"\n")
+  
